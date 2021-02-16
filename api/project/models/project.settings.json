@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "richtext"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "small"
+      ]
+    },
+    "disposition": {
+      "type": "enumeration",
+      "enum": [
+        "two_items",
+        "two_items_overlap",
+        "four_items",
+        "two_items_crossed_top",
+        "two_items_crossed_top_overlap",
+        "two_items_crossed_bottom",
+        "two_items_crossed_bottom_spaced",
+        "two_items_crossed_bottom_squared",
+        "three_items_gallery"
+      ]
+    },
+    "previews": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "long_description": {
+      "type": "richtext"
+    }
+  }
+}
