@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+        "cloud_name":"thoumar",
+        "api_key": "753416965128998",               
+        "api_secret":"S6E-Y69PJD7OYZO5pLQGqNJLOns"
+    }
+}
