@@ -71,6 +71,33 @@
     },
     "subtitle": {
       "type": "string"
+    },
+    "component_one": {
+      "type": "dynamiczone",
+      "components": [
+        "project-page.carousel",
+        "project-page.content",
+        "project-page.single-carousel",
+        "project-page.video"
+      ]
+    },
+    "component_two": {
+      "type": "dynamiczone",
+      "components": [
+        "project-page.carousel",
+        "project-page.content",
+        "project-page.single-carousel",
+        "project-page.video"
+      ]
+    },
+    "component_three": {
+      "type": "dynamiczone",
+      "components": [
+        "project-page.carousel",
+        "project-page.content",
+        "project-page.single-carousel",
+        "project-page.video"
+      ]
     }
   }
 }
