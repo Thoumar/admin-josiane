@@ -84,10 +84,9 @@
     "filters": {
       "type": "enumeration",
       "enum": [
-        "most_viewed",
-        "care",
-        "advertising",
-        "activation"
+        "campagnes",
+        "causes",
+        "activations"
       ]
     }
   }
