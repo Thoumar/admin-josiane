@@ -89,6 +89,9 @@
         "causes",
         "activations"
       ]
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
