@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_page_retombees_presses",
+  "info": {
+    "name": "Retombées Presse",
+    "icon": "journal-whills"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
