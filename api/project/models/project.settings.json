@@ -74,15 +74,6 @@
     "subtitle": {
       "type": "string"
     },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "project-page.carousel",
-        "project-page.video",
-        "project-page.image",
-        "project-page.retombees-presse"
-      ]
-    },
     "filters": {
       "type": "enumeration",
       "enum": [
@@ -104,6 +95,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "project-page.carousel",
+        "project-page.image",
+        "project-page.retombees-presse",
+        "project-page.video"
+      ]
     }
   }
 }
