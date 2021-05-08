@@ -23,6 +23,9 @@
     },
     "description": {
       "type": "string"
+    },
+    "borders": {
+      "type": "boolean"
     }
   }
 }

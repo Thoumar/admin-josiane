@@ -23,6 +23,12 @@
     },
     "description": {
       "type": "string"
+    },
+    "borders": {
+      "type": "boolean"
+    },
+    "shadows": {
+      "type": "boolean"
     }
   }
 }

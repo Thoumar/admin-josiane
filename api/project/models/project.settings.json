@@ -78,10 +78,7 @@
       "type": "dynamiczone",
       "components": [
         "project-page.carousel",
-        "project-page.content",
-        "project-page.single-carousel",
         "project-page.video",
-        "project-page.carousel-overlap",
         "project-page.image",
         "project-page.retombees-presse"
       ]
