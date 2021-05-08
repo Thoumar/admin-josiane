@@ -26,10 +26,6 @@
     },
     "description": {
       "type": "string"
-    },
-    "shadows": {
-      "type": "boolean",
-      "default": false
     }
   }
 }
