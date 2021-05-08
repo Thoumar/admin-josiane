@@ -25,7 +25,8 @@
       "type": "string"
     },
     "borders": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }

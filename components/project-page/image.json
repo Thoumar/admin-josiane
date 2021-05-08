@@ -25,10 +25,12 @@
       "type": "string"
     },
     "borders": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "shadows": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }
