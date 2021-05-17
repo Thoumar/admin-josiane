@@ -41,11 +41,7 @@ const Editor = ({ onChange, name, value }) => {
         editor={ClassicEditor}
         config={configuration}
         data={value}
-        onReady={(editor) => {
-          if (value) {
-            editor.setData(value);
-          }
-        }}
+        onReady={(editor) => editor.setData(value)}
         onChange={(event, editor) => {
           const data = editor.getData();
           onChange({ target: { name, value: data } });
