@@ -16,13 +16,27 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "title": {
       "type": "string"
     },
     "description": {
       "type": "string"
+    },
+    "Shadow": {
+      "type": "boolean",
+      "default": false
+    },
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "big",
+        "medium",
+        "small"
+      ],
+      "default": "big"
     }
   }
 }
