@@ -55,7 +55,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "cover": {
       "model": "file",
@@ -66,7 +67,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "long_description": {
       "type": "richtext"
@@ -94,7 +96,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "Content": {
       "type": "dynamiczone",
@@ -104,6 +107,11 @@
         "project-page.retombees-presse",
         "project-page.video"
       ]
+    },
+    "hide": {
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }

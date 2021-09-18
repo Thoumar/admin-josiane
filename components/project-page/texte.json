@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_project_page_textes",
+  "info": {
+    "name": "Texte",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
