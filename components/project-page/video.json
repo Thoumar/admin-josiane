@@ -36,6 +36,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
