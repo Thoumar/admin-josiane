@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_project_page_grille_carousels",
+  "info": {
+    "name": "GrilleCarousel",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
