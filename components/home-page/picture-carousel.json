@@ -1,16 +1,14 @@
 {
-  "collectionName": "components_project_page_grille_carousels",
+  "collectionName": "components_home_page_picture_carousels",
   "info": {
-    "name": "GrilleCarousel",
-    "icon": "grip-horizontal"
+    "name": "Picture",
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "pictures": {
-      "collection": "file",
+    "Image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -20,6 +18,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

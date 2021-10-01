@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_project_page_pictures",
+  "info": {
+    "name": "Picture",
+    "icon": "th"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

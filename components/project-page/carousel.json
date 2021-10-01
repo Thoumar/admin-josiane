@@ -16,7 +16,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "itemsToShow": {
       "type": "integer"
@@ -26,6 +27,10 @@
     },
     "description": {
       "type": "string"
+    },
+    "background": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
