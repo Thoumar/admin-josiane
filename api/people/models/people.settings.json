@@ -20,7 +20,8 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
     },
     "name": {
       "type": "string"
@@ -30,6 +31,9 @@
     },
     "position": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer"
     }
   }
 }
